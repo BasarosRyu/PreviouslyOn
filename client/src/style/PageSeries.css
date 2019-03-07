@@ -1,0 +1,107 @@
+.PageSerieBan {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.PageSerieBody {
+    width: 54%;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.PageSerieSeasons {
+    width: 54%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.PageSerieEpisodes {
+    width: 54%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.PageSerieEpisodesDetails {
+    width: 80%;
+    margin: 5px;
+    margin-left: 20%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #ADBFD9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.displayDiv {
+    display:none;
+}
+
+.PageSerieBody strong {
+    font-size: 1.5em;
+}
+
+p {
+    text-align: justify;
+}
+
+.serie-note {
+    float: right;
+    text-decoration: underline;
+}
+
+.add-button {
+    float: right;
+    margin-bottom: 50px;
+    background-color: #ADBFD9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.seasons {
+    background-color: #ADBFD9;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+.episodes {
+    background-color: #f0f0f0;
+    margin: 1px;
+    padding: 0 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.seasons:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.marginBottom {
+    height: 150px;
+}
+
+.name-episode {
+    width: 80%;
+}
+
+.buttonview:hover {
+    cursor: pointer
+}
+
+.episodeViewed {
+    opacity: 0.5;
+}

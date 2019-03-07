@@ -1,0 +1,21 @@
+.Header {
+    background-color: #ADBFD9;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.header-navbar {
+    display: flex;
+}
+
+.header-compte {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+a {
+    text-decoration: none;
+}

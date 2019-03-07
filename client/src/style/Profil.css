@@ -1,0 +1,126 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.Profil-container {
+    display: flex;
+    margin: 5px;
+    position: absolute;
+    top: 80px;
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.profil {
+    border: 3px solid #ADBFD9;
+    width: 25%;
+    height: 100%;
+    margin-right: 2%;
+}
+
+.profil-content {
+    margin: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+.avatar-border {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.title-series {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.stats {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.viewsSeries {
+    border: 3px solid #ADBFD9;
+    width: 73%;
+    height: 100%;
+}
+
+.title-series {
+    width: 90%;
+    margin-top: 0;
+    margin: 5px 5%;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #1D776B;
+}
+
+.list-archived {
+    margin-top: 50px;
+}
+
+.seriesdisplay {
+    display: flex;
+}
+
+.seriesdetails {
+    width: 95%;
+    margin: 10px 2.5%;
+}
+.series-content {
+    margin: 5px;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.seriesdetails .seriesPoster {
+    width: 30%;
+    height: 210px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.imgseries {
+    width: 100%;
+}
+
+.seriesinfos {
+    margin-left: 2%;
+    width: 68%;
+    height: 210px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+
+.margin-left-describe {
+    margin-left: 50px;
+}
+
+.more {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ADBFD9;
+}
+
+.more:hover {
+    color: white;
+    cursor: pointer;
+}
